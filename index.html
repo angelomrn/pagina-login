@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
-    <div class="container-login">
-        <header>Login</header>
-        <div class="imagem">Imagem</div>
-        <section class="login">
-            email
-            <br>
-            senha
-            <br>
-            esqueceu a senha
-        </section>
+    <div class="container">
+        <div class="container-login">
+            <h2>Register / Login</h2>
+            <hr>
+            <img src="imagem-teclado.jpg" alt="purple-sky">
+
+            <section>
+                <form action="#" method="post" class="form-login">
+
+                    <div class="form-group">
+                        <label for="form-email">Email:</label>
+                        <input type="email" name="form-email" id="form-email" size="20" placeholder="login@gmail.com" required autocomplete="email"maxlength="50">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-password">Password:</label>
+                        <input type="password" name="form-password" id="form-password" size="20" placeholder="1234" required autocomplete="current-password" maxlength="15">
+                    </div>
+
+                    <input type="submit" value="Login">
+
+                </form>
+            </section>
+        </div>
     </div>
 
-    <footer>Feito por Angelo</footer>
 </body>
 </html>
