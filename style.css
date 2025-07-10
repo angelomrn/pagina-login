@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    min-height: 90vh;
+    min-height: 96vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ body {
     transition: 1.3s;
 }
 
-img {
+#login-image {
     width: 90%;
     height: 150px;
     margin: 5px;
@@ -118,4 +118,21 @@ input[type=button]:hover {
     width: 125px;
     cursor: pointer;
     transition: 0.8s;
+}
+
+footer {
+    background-color: black;
+    padding: 18px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo-github {
+    border-radius: 10px;
+    width: 30px;
+    position: absolute;
+    top: 98%;
 }
