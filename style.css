@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(-120deg ,black,#2B0D85, rgb(138, 108, 161));
+    background: linear-gradient(-120deg ,black,#2B0D85, rgb(173, 143, 197));
     min-height: 100vh;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 img {
-    width: 95%;
+    width: 90%;
     height: 150px;
     margin: 5px;
     border-radius: 15px 15px 0px 0px;
@@ -53,6 +53,13 @@ hr {
     width: 280px;
     margin: 5px;
     border: 1px solid;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.833);
+    padding: 11px;
+    border: 1px rgb(255, 255, 255, 0.534) solid;
+    border-radius: 0px 0px 8px 8px;
 }
 
 .form-login {
@@ -82,7 +89,7 @@ input[type=submit] {
     margin: 5px;
     height: 30px;
     width: 90px;
-    background:linear-gradient(60deg, rgb(60, 0, 128), rgb(68, 6, 138));
+    background:linear-gradient(60deg, rgba(255, 255, 255, 0.363),rgba(119, 0, 255, 0.5), black);
     border: none;
     border-radius: 13px;
 }
