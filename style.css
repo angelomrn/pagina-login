@@ -12,22 +12,23 @@
 body {
     background: linear-gradient(-120deg ,black,#2B0D85, rgb(173, 143, 197));
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
 }
 
 .container {
-    min-height: 96vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-grow: 1;
 }
 
 .container-login {
-
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-
     background-color: #2d108544;
     max-width: 350px;
     width: 90%;
@@ -37,27 +38,28 @@ body {
 }
 
 .container-login:hover{
-    border: 2.5px rgba(255, 255, 255, 0.842) solid;
+    border: 2.20px rgba(255, 255, 255, 0.842) solid;
     transition: 1.3s;
 }
 
+hr {
+    width: 260px;
+    margin: 5px;
+    border: 1px solid;
+}
+
 #login-image {
-    width: 90%;
+    min-width: 276px ;
     height: 150px;
     margin: 5px;
     border-radius: 15px 15px 0px 0px;
     border: 1px rgba(255, 255, 255, 0.534) solid;
 }
 
-hr {
-    width: 280px;
-    margin: 5px;
-    border: 1px solid;
-}
-
 section {
-    background-color: rgba(0, 0, 0, 0.833);
-    padding: 11px;
+    min-width: 276px;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 10px;
     border: 1px rgb(255, 255, 255, 0.534) solid;
     border-radius: 0px 0px 8px 8px;
 }
@@ -98,7 +100,7 @@ input[type=submit]:hover {
     border: 1px solid white;
     height: 40px;
     width: 100px;
-    background:linear-gradient(60deg, rgba(255, 255, 255, 0.363),rgb(90, 2, 192), rgba(0, 0, 0, 0.658));
+    background:linear-gradient(60deg, rgba(255, 255, 255, 0.534),rgb(90, 2, 192), rgba(0, 0, 0, 0.658));
     cursor: pointer;
     transition: 0.8s;
 }
@@ -121,8 +123,9 @@ input[type=button]:hover {
 }
 
 footer {
+    position: relative;
     background-color: black;
-    padding: 18px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -134,5 +137,5 @@ a {
     border-radius: 10px;
     width: 30px;
     position: absolute;
-    top: 98%;
+    top: 15%;
 }
